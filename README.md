@@ -1,12 +1,12 @@
-# Spoken-english-to-written-english-converter
+# Spoken English To Written English Converter
 
 
 
-A reusable library that can convert a paragraph of spoken english to written english. For example, "two dollars" should be converted to $2. Abbreviations spoken as "C M" or "Triple A" should be written as "CM" and "AAA" respectively.
+A reusable library that can convert a paragraph of spoken english to written english. For example, "two dollars" can be converted to $2. Abbreviations spoken as "C M" or "Triple A" can be written as "CM" and "AAA" respectively.
 
 
-# Installation:
-open command prompt and:
+# Installation Procedure:
+open command prompt then enter the following commands:
 
 > pip install PyAudio
 
@@ -18,19 +18,19 @@ link for more info on Library deployed:
 [Click here](https://pypi.org/project/SpokenToWrittenConvert/)
 
 
-# Importing
-
+# Importing the Library onto Python:
+Open Python and then import the library using the following commands: 
 ```python
 >>> from SpokenToWrittenConvert import conversion
 ```
 
 # Usage :
 
-## For input as `VOICE`:
+## For input as `VOICE` :
 ```python
 >>> conversion.convertor()
 ```
-## For input as `Typed`:
+## For input as `TYPED` :
 ```python
 >>> conversion.convertor(0)
 ```
@@ -79,17 +79,22 @@ Converted Written English Paragraph:
  " aaa"
 ```
 
-# Reusability and Adding More Rules:
-
+# Reusability:
 
 This library can be continuously matured as you discover more and more conversion rules.
 
 - The library can be easily modified to be made better by adding more rules to the class `get_rules()` inside the conversion.py 
 
-- Added a class `check_front_last()` inside conversion.py that can be made used make changes for improving the punctuations.
+- Also added class named `check_front_last()` inside conversion.py that can be used to make changes for improving the punctuations.
 
-- Punctuation, Changing a number spelled as words into numbers,
-All the famous Nouns which are famous with their Abbreviations etc..., many more rules can be add by following the 2 point that are mention above to mature the code to be Functional to a greater extent.
+# Finetuning for increasing the reliabilty of library:
+- Auto Correction of sentences.
+- All the proper nouns which are famous with their Abbreviations
+- Changing the number spelled as words into digits.
+- Expansion of conversion to all the currencies across the globe.
+
+
+Many more rules can be added by following the steps that are mentioned under reusability header to mature code to be functional with a greater reliability.
 
 # Licencse:
 Copyright 2020 MOHIT CHVK
