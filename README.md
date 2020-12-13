@@ -20,21 +20,34 @@ link for more info on Library deployed:
 
 # Importing
 
-```cmd
-> from SpokenToWrittenConvert import conversion
+```python
+>>> from SpokenToWrittenConvert import conversion
 ```
 
 # Usage :
 
 ## For input as `VOICE`:
-
->conversion.convertor()
-
+```python
+>>> conversion.convertor()
+```
 ## For input as `Typed`:
-
->conversion.convertor(0)
-
+```python
+>>> conversion.convertor(0)
+```
 Note: Input zero into the arguments if you want to enter the spoken english model in typed form instead of the speaking.
+
+
+# Requirements of helpful Libraries:
+ipython>=6
+
+nbformat>=4
+
+nbconvert>=5
+
+requests>=2
+
+SpeechRecognition>=3
+
 
 # Reusability:
 
