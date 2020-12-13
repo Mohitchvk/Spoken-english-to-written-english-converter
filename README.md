@@ -48,8 +48,38 @@ requests>=2
 
 SpeechRecognition>=3
 
+# Output:
+For Input as `Typed`:
+```python
+>>> from SpokenToWrittenConvert import conversion
+>>> conversion.convertor(0)
+[Enter The Spoken English]:triple a two dollars C M hello world
 
-# Reusability:
+[OUT]:The input Spoken English Paragraph:
+
+ " triple a two dollars C M hello world"
+
+Converted Written English Paragraph:
+
+ " aaa $2 CM hello world"
+```
+```python
+For input as `Voice`:
+>>> from SpokenToWrittenConvert import conversion
+>>> conversion.convertor()
+[Speak Anything]:
+[You Said]: triple a
+
+[OUT]:The input Spoken English Paragraph:
+
+ " triple a"
+
+Converted Written English Paragraph:
+
+ " aaa"
+```
+
+# Reusability and Adding More Rules:
 
 
 This library can be continuously matured as you discover more and more conversion rules.
@@ -57,6 +87,9 @@ This library can be continuously matured as you discover more and more conversio
 - The library can be easily modified to be made better by adding more rules to the class `get_rules()` inside the conversion.py 
 
 - Added a class `check_front_last()` inside conversion.py that can be made used make changes for improving the punctuations.
+
+- Punctuation, Changing a number spelled as words into numbers,
+All the famous Nouns which are famous with their Abbreviations etc..., many more rules can be add by following the 2 point that are mention above to mature the code to be Functional to a greater extent.
 
 # Licencse:
 Copyright 2020 MOHIT CHVK
