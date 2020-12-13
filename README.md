@@ -63,8 +63,8 @@ Converted Written English Paragraph:
 
  " aaa $2 CM hello world"
 ```
-```python
 For input as `Voice`:
+```python
 >>> from SpokenToWrittenConvert import conversion
 >>> conversion.convertor()
 [Speak Anything]:
