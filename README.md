@@ -96,7 +96,7 @@ This library can be continuously matured as you discover more and more conversio
 
 Many more rules can be added by following the steps that are mentioned under reusability header to mature code to be functional with a greater reliability.
 
-# Licencse:
+# Licence:
 Copyright 2020 MOHIT CHVK
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
